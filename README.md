@@ -72,4 +72,5 @@ endmodule
 ![WhatsApp Image 2024-12-03 at 14 44 51_bf1b1ba2](https://github.com/user-attachments/assets/41d4f04a-a9b9-4e38-b5dc-1d3310ac3de3)
 
 **RESULTS**
+
 Thus the D flipflop using verilog and validating their functionality using their functional tables are verified.
