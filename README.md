@@ -28,10 +28,26 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+1. Define a Verilog module for the D flip-flop with inputs (D, CLK) and outputs (Q, Q_bar).
+
+2. Declare input and output ports for the module.
+
+3. Write Verilog code to implement the D flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of the clock signal.
+
+4. Write a Verilog testbench to simulate the behavior of the D flip-flop under different input conditions.
+
+5. In the testbench, apply various combinations of input stimuli (D, CLK) to cover all possible input states.
+
+6. Verify that the output behavior of the D flip-flop matches the expected behavior defined by its functional table.
+
+7. Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
 
 **PROGRAM**
 ```
+Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by: ASTLE JOE A S
+RegisterNumber: 24004571
+
 module exp8(d, clk, rst, q);
   input d, clk, rst;
   output reg q;
@@ -44,13 +60,16 @@ module exp8(d, clk, rst, q);
   end
 endmodule
 ```
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:ASTLE JOE A S RegisterNumber:24004571
-*/
+
 
 **RTL LOGIC FOR FLIPFLOPS**
+
+![WhatsApp Image 2024-12-03 at 14 31 28_50a9f727](https://github.com/user-attachments/assets/25ac3727-322b-4510-ac2b-1bdac6ddb5c8)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![WhatsApp Image 2024-12-03 at 14 44 51_bf1b1ba2](https://github.com/user-attachments/assets/41d4f04a-a9b9-4e38-b5dc-1d3310ac3de3)
 
 **RESULTS**
+Thus the D flipflop using verilog and validating their functionality using their functional tables are verified.
