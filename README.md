@@ -64,12 +64,14 @@ endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![WhatsApp Image 2024-12-03 at 14 31 28_50a9f727](https://github.com/user-attachments/assets/25ac3727-322b-4510-ac2b-1bdac6ddb5c8)
+![image](https://github.com/user-attachments/assets/cedcd51c-6a64-41c1-bbc0-f618457ef5bd)
+
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![WhatsApp Image 2024-12-03 at 14 44 51_bf1b1ba2](https://github.com/user-attachments/assets/41d4f04a-a9b9-4e38-b5dc-1d3310ac3de3)
+![image](https://github.com/user-attachments/assets/e44e67c0-abb2-4992-916b-b880dc26c00d)
+
 
 **RESULTS**
 
